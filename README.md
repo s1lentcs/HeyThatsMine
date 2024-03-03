@@ -20,45 +20,45 @@ HTM also supports the luckperms API, which allows you to manage permissions. Per
 
 The mod has multiple commands which you can use on your containers
 
-### Flag
+### Flag (Updated to /chest commands)
 
-`/htm flag`: Checks the flags of a specific container. Left click on the container after running this command to check
+`/chest flag`: Checks the flags of a specific container. Left click on the container after running this command to check
 
-`/htm flag <type> <value>`: Left click a container to set the flag
+`/chest flag <type> <value>`: Left click a container to set the flag
 
 Permission node: `htm.command.flag`
 
 ### Set
 
-`/htm set PUBLIC`: Allows everyone to access the container
+`/chest set PUBLIC`: Allows everyone to access the container
 
-`/htm set PRIVATE`: Allows only the owner and those with permissions to access the container
+`/chest set PRIVATE`: Allows only the owner and those with permissions to access the container
 
-`/htm set KEY`: Allows only those with a key to access the container
+`/chest set KEY`: Allows only those with a key to access the container
 
 Permission node: `htm.command.set`
 
 ### Trust
 
-`/htm trust <player> [global]`: Allows a player to access that container if private
+`/chest trust <player> [global]`: Allows a player to access that container if private
 
 Permission node: `htm.command.trust`
 
 ### Untrust
 
-`/htm untrust <player> [global]`: Revokes a player's access to the container
+`/chest untrust <player> [global]`: Revokes a player's access to the container
 
 Permission node: `htm.command.trust`
 
 ### Remove
 
-`/htm remove`: Removes all protections from a container
+`/chest remove`: Removes all protections from a container
 
 Permission node: `htm.command.remove`
 
 ### Transfer
 
-`/htm transfer <player>`: Transfers ownership to another player
+`/chest transfer <player>`: Transfers ownership to another player
 
 Permission node: `htm.command.transfer`
 
@@ -66,7 +66,7 @@ Permission node: `htm.command.transfer`
 
 Toggles persist mode, which allows you to continue executing the same action without typing the command again
 
-`/htm persist`
+`/chest persist`
 
 Permission node: `htm.command.persist`
 
@@ -74,7 +74,7 @@ Permission node: `htm.command.persist`
 
 Toggles no message mode, which hides non-command messages like automatic protection creation and override.
 
-`/htm quiet`
+`/chest quiet`
 
 Permission node: `htm.command.quiet`
 

@@ -12,7 +12,7 @@ public class HTMCommand {
 
 	public static void register(CommandDispatcher<ServerCommandSource> dispatcher) {
 		LiteralCommandNode<ServerCommandSource> htmNode =
-				literal("htm")
+				literal("chest")
 						.requires(Permissions.require("htm.command.root", true))
 						.build();
 
